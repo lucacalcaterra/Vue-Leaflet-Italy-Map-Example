@@ -1,4 +1,4 @@
-# vueleafitalymapexample
+# vueleaflet italy map example
 
 ## Project setup
 ```
