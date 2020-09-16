@@ -36,7 +36,7 @@
           </div>
         </l-popup>
       </l-marker>
-      <l-circle-marker :lat-lng="markers[0]">
+      <l-circle-marker v-for="(marker,index) in markers" :key="index" :lat-lng="marker">
         <l-tooltip :options="{ permanent: true, interactive: true }">
           <div @click="innerClick">
             I am a tooltip
@@ -83,7 +83,9 @@ export default {
       },
       showMap: true,
       markers: [
-        latLng(42.35122196,13.39843823)
+        latLng( 42.35122196, 13.39843823),
+        latLng( 40.63947052, 15.80514834)
+
 
       ]
     };
