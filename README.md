@@ -1,4 +1,4 @@
-# vueleaftest
+# vueleafitalymapexample
 
 ## Project setup
 ```
